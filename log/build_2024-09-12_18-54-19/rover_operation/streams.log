@@ -1,0 +1,37 @@
+[0.246s] Invoking command in '/home/dsu-aiml-509-37/rover_project/src/rover_operation': PYTHONPATH=/home/dsu-aiml-509-37/rover_project/build/rover_operation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover_operation build --build-base /home/dsu-aiml-509-37/rover_project/build/rover_operation/build install --record /home/dsu-aiml-509-37/rover_project/build/rover_operation/install.log --single-version-externally-managed install_data
+[0.343s] running egg_info
+[0.343s] creating ../../build/rover_operation/rover_operation.egg-info
+[0.343s] writing ../../build/rover_operation/rover_operation.egg-info/PKG-INFO
+[0.343s] writing dependency_links to ../../build/rover_operation/rover_operation.egg-info/dependency_links.txt
+[0.343s] writing entry points to ../../build/rover_operation/rover_operation.egg-info/entry_points.txt
+[0.343s] writing requirements to ../../build/rover_operation/rover_operation.egg-info/requires.txt
+[0.343s] writing top-level names to ../../build/rover_operation/rover_operation.egg-info/top_level.txt
+[0.343s] writing manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+[0.344s] reading manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+[0.344s] writing manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+[0.344s] running build
+[0.344s] running build_py
+[0.344s] creating /home/dsu-aiml-509-37/rover_project/build/rover_operation/build
+[0.344s] creating /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib
+[0.344s] creating /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation
+[0.344s] copying rover_operation/rover_teleop.py -> /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation
+[0.344s] copying rover_operation/__init__.py -> /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation
+[0.344s] running install
+[0.344s] running install_lib
+[0.344s] creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation
+[0.344s] copying /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation/rover_teleop.py -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation
+[0.345s] copying /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation/__init__.py -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation
+[0.345s] byte-compiling /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation/rover_teleop.py to rover_teleop.cpython-310.pyc
+[0.345s] byte-compiling /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation/__init__.py to __init__.cpython-310.pyc
+[0.345s] running install_data
+[0.345s] creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index
+[0.345s] creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index/resource_index
+[0.345s] creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index/resource_index/packages
+[0.345s] copying resource/rover_operation -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index/resource_index/packages
+[0.345s] copying package.xml -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/rover_operation
+[0.345s] running install_egg_info
+[0.346s] Copying ../../build/rover_operation/rover_operation.egg-info to /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation-0.0.0-py3.10.egg-info
+[0.346s] running install_scripts
+[0.356s] Installing rover_teleop_key script to /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/rover_operation
+[0.356s] writing list of installed files to '/home/dsu-aiml-509-37/rover_project/build/rover_operation/install.log'
+[0.365s] Invoked command in '/home/dsu-aiml-509-37/rover_project/src/rover_operation' returned '0': PYTHONPATH=/home/dsu-aiml-509-37/rover_project/build/rover_operation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover_operation build --build-base /home/dsu-aiml-509-37/rover_project/build/rover_operation/build install --record /home/dsu-aiml-509-37/rover_project/build/rover_operation/install.log --single-version-externally-managed install_data

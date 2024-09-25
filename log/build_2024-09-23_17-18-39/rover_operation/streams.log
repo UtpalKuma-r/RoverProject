@@ -1,0 +1,28 @@
+[0.424s] Invoking command in '/home/utpalkumar/rover_project/src/rover_operation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/utpalkumar/rover_project/build/rover_operation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover_operation build --build-base /home/utpalkumar/rover_project/build/rover_operation/build install --record /home/utpalkumar/rover_project/build/rover_operation/install.log --single-version-externally-managed install_data
+[0.514s] running egg_info
+[0.518s] writing ../../build/rover_operation/rover_operation.egg-info/PKG-INFO
+[0.518s] writing dependency_links to ../../build/rover_operation/rover_operation.egg-info/dependency_links.txt
+[0.519s] writing entry points to ../../build/rover_operation/rover_operation.egg-info/entry_points.txt
+[0.519s] writing requirements to ../../build/rover_operation/rover_operation.egg-info/requires.txt
+[0.519s] writing top-level names to ../../build/rover_operation/rover_operation.egg-info/top_level.txt
+[0.528s] reading manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+[0.528s] writing manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] copying rover_operation/rover_teleop_node.py -> /home/utpalkumar/rover_project/build/rover_operation/build/lib/rover_operation
+[0.528s] copying rover_operation/rover_teleop.py -> /home/utpalkumar/rover_project/build/rover_operation/build/lib/rover_operation
+[0.528s] running install
+[0.531s] running install_lib
+[0.536s] creating /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation
+[0.536s] copying /home/utpalkumar/rover_project/build/rover_operation/build/lib/rover_operation/__init__.py -> /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation
+[0.536s] copying /home/utpalkumar/rover_project/build/rover_operation/build/lib/rover_operation/rover_teleop_node.py -> /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation
+[0.536s] copying /home/utpalkumar/rover_project/build/rover_operation/build/lib/rover_operation/rover_teleop.py -> /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation
+[0.536s] byte-compiling /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation/__init__.py to __init__.cpython-312.pyc
+[0.536s] byte-compiling /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation/rover_teleop_node.py to rover_teleop_node.cpython-312.pyc
+[0.536s] byte-compiling /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation/rover_teleop.py to rover_teleop.cpython-312.pyc
+[0.536s] running install_data
+[0.537s] running install_egg_info
+[0.541s] Copying ../../build/rover_operation/rover_operation.egg-info to /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation-0.0.0-py3.12.egg-info
+[0.542s] running install_scripts
+[0.580s] Installing rover_teleop_key script to /home/utpalkumar/rover_project/install/rover_operation/lib/rover_operation
+[0.580s] writing list of installed files to '/home/utpalkumar/rover_project/build/rover_operation/install.log'

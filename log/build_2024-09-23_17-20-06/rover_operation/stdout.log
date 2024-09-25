@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/rover_operation/rover_operation.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_operation/rover_operation.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_operation/rover_operation.egg-info/entry_points.txt
+writing requirements to ../../build/rover_operation/rover_operation.egg-info/requires.txt
+writing top-level names to ../../build/rover_operation/rover_operation.egg-info/top_level.txt
+reading manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/rover_operation/rover_operation.egg-info to /home/utpalkumar/rover_project/install/rover_operation/lib/python3.12/site-packages/rover_operation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing rover_teleop_key script to /home/utpalkumar/rover_project/install/rover_operation/lib/rover_operation
+writing list of installed files to '/home/utpalkumar/rover_project/build/rover_operation/install.log'

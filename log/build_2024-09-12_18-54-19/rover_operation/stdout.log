@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rover_operation/rover_operation.egg-info
+writing ../../build/rover_operation/rover_operation.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_operation/rover_operation.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_operation/rover_operation.egg-info/entry_points.txt
+writing requirements to ../../build/rover_operation/rover_operation.egg-info/requires.txt
+writing top-level names to ../../build/rover_operation/rover_operation.egg-info/top_level.txt
+writing manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+reading manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_operation/rover_operation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dsu-aiml-509-37/rover_project/build/rover_operation/build
+creating /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib
+creating /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation
+copying rover_operation/rover_teleop.py -> /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation
+copying rover_operation/__init__.py -> /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation
+running install
+running install_lib
+creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation
+copying /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation/rover_teleop.py -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation
+copying /home/dsu-aiml-509-37/rover_project/build/rover_operation/build/lib/rover_operation/__init__.py -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation
+byte-compiling /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation/rover_teleop.py to rover_teleop.cpython-310.pyc
+byte-compiling /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index
+creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index/resource_index
+creating /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index/resource_index/packages
+copying resource/rover_operation -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/ament_index/resource_index/packages
+copying package.xml -> /home/dsu-aiml-509-37/rover_project/install/rover_operation/share/rover_operation
+running install_egg_info
+Copying ../../build/rover_operation/rover_operation.egg-info to /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/python3.10/site-packages/rover_operation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rover_teleop_key script to /home/dsu-aiml-509-37/rover_project/install/rover_operation/lib/rover_operation
+writing list of installed files to '/home/dsu-aiml-509-37/rover_project/build/rover_operation/install.log'

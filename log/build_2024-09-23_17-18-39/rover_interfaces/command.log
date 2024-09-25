@@ -1,0 +1,2 @@
+Invoking command in '/home/utpalkumar/rover_project/build/rover_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/utpalkumar/rover_project/src/rover_interfaces -DCMAKE_INSTALL_PREFIX=/home/utpalkumar/rover_project/install/rover_interfaces
+Invoked command in '/home/utpalkumar/rover_project/build/rover_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/utpalkumar/rover_project/src/rover_interfaces -DCMAKE_INSTALL_PREFIX=/home/utpalkumar/rover_project/install/rover_interfaces

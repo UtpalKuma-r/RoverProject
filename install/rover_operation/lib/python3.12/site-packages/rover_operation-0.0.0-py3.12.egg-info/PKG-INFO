@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rover-operation
+Version: 0.0.0
+Summary: Node to send navigation data to rover
+Maintainer: dsu-aiml-509-37
+Maintainer-email: dsu-aiml-509-37@todo.todo
+License: Apache License 2.0

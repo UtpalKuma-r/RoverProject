@@ -1,0 +1,27 @@
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+import keyboard as kb
+
+class RoverTeleop(Node):
+
+    def __init__(self):
+        super().__init__("RoverTeleop")
+        self.publisher_ = self.create_publisher(String, 'motion', 10)
+
+def main(args = None):
+    rclpy.init(args=args)
+    teleop = RoverTeleop()
+    message = String()
+    while 1:
+        key = kb.read_key()
+        if key == 'q':
+            break
+        elif key in ['a', 's', 'd', 'w', 'r']:
+            message.data = key
+            teleop.publisher_.publish(message)
+    teleop.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == "__main__":
+    main()
