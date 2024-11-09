@@ -74,6 +74,7 @@ def main(args=None):
         if cap.isOpened():
             camera_indexes.append(index)
             cap.release()
+    print(camera_indexes)
 
     if len(camera_indexes) < 2:
         print("Connect cameras")
@@ -88,4 +89,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
