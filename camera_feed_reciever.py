@@ -18,17 +18,19 @@ class SubscriberNodeClass(Node):
 
         # Create a client for the switch camera service
         self.client = self.create_client(SetBool, 'switch_camera')
+        self.i = 0
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Service not available, waiting again...')
 
         # OpenCV window
-        cv2.namedWindow("Camera Video", cv2.WINDOW_AUTOSIZE)
+        #cv2.namedWindow("Camera Video", cv2.WINDOW_AUTOSIZE)
         self.switch_in_progress = False  # Flag to manage switch state
-        self.cameraDeviceNumber = 0  # Initial camera index
-        self.camera = cv2.VideoCapture(self.cameraDeviceNumber)
+        #self.cameraDeviceNumber = 0  # Initial camera index
+        #self.camera = cv2.VideoCapture(self.cameraDeviceNumber)
 
     def listener_callback_function(self, imageMessage):
-        self.get_logger().info('The image frame is received')
+        self.get_logger().info(f'The image frame is received {self.i}')
+        self.i += 1
         openCVImage = self.bridgeObject.imgmsg_to_cv2(imageMessage)
         cv2.imshow("Camera Video", openCVImage)
 
@@ -66,7 +68,7 @@ def main(args=None):
         pass
     finally:
         # Release the camera and destroy the OpenCV window
-        subscriberNode.camera.release()
+        #subscriberNode.camera.release()
         cv2.destroyAllWindows()  # Close OpenCV window
         subscriberNode.destroy_node()
         rclpy.shutdown()
