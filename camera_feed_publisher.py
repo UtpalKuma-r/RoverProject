@@ -45,6 +45,7 @@ class PublisherNodeClass(Node):
             self.i += 1
         else:
             self.get_logger().error("Failed to read frame from camera.")
+        time.sleep(.5)
 
     def switch_camera_callback(self, request, response):
         if self.camera is not None:
